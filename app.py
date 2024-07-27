@@ -22,7 +22,7 @@ def get_student_info(student_id: int):
 
 @app.get("/track_learning/{student_id}")
 def track_learning(student_id: int):
-    return master_agent.allocate_task("track_learning", student_id)
+    return master_agent.allocate_task("learning_tracker", student_id)
 
 @app.get("/create_roadmap/{student_id}")
 def create_roadmap(student_id: int):
