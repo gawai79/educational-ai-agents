@@ -1,6 +1,7 @@
 # educational-ai-agents
 
-This repository contains five AI agents designed for an educational app that includes school-level study material.
+## Description
+This Educational AI System is an intelligent tutoring platform that uses the Gemini API to provide personalized learning experiences. The system consists of multiple AI agents, each specialized in different aspects of the learning process, working together to assist students in their educational journey.
 
 ## Agents
 
@@ -24,9 +25,4 @@ This repository contains five AI agents designed for an educational app that inc
    - **Description**: Acts like a teacher who knows each student well.
    - **File**: `coach_agent.py`
 
-## Installation and Setup
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/your-username/educational-ai-agents.git
-   cd educational-ai-agents
